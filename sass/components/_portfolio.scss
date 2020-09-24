@@ -12,10 +12,10 @@
 .buttons {
   display: flex;
   justify-content: center;
+}
 
-  &li:not(:first-child) {
-    margin-left: 8px;
-  }
+.buttons li:not(:first-child) {
+  margin-left: 8px;
 }
 
 .portfolio-button {
